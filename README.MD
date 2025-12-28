@@ -160,11 +160,6 @@ sudo spctl --master-disable
 
 ---
 
-MIT License
->>>>>>> Stashed changes
 ## License
 
 MIT License
-=======
-MIT License
->>>>>>> Stashed changes
