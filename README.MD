@@ -114,7 +114,7 @@ strip -x .build/release/Phocus2Importer
 ⚠️ **重要提示：**
 为了确保数据库解析正确，**JSON 内容必须保持为单行（严禁换行）**，且字段顺序建议保持一致。请直接复制以下模板进行修改：
 
-``json
+```json
 {"Shot":"XCD 45P","Device":"Hasselblad X1D 50C","Dimensions":"8272 * 6200","DateTimeOriginal":"2025:12:07 21:55:50","ApertureValue":"4.0","OffsetTimeOriginal":"+08:00","Rating":"Optional(0)","ShutterSpeedValue":"1/50s","ISO":"100","Orientation":"0"}
 ```
 
