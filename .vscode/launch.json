@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Phocus2Importer}",
+            "name": "Debug Phocus2Importer",
+            "target": "Phocus2Importer",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug Phocus2Importer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Phocus2Importer}",
+            "name": "Release Phocus2Importer",
+            "target": "Phocus2Importer",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release Phocus2Importer"
+        }
+    ]
+}
