@@ -163,4 +163,3 @@ sudo spctl --master-disable
 ## License
 
 MIT License
-```
