@@ -1,4 +1,3 @@
-***
 # Phocus2Importer
 
 Phocus2Importer 是一个 macOS 命令行工具，用于将 Hasselblad `.3FR` RAW 文件离线导入到 **Phocus Mobile 2**（iPadOS 版，运行于 macOS）的数据库中。
@@ -42,7 +41,7 @@ Phocus2Importer 是一个 macOS 命令行工具，用于将 Hasselblad `.3FR` RA
             *   谷歌Drive：https://drive.google.com/file/d/1KqttQ-i5-FZkuOOglQE8Oj8-U_bEXeBK/view?usp=sharing
             *   百度网盘：https://pan.baidu.com/s/1PyMwO_dc1Xn7IAClTNr4pg?pwd=czwc 提取码: czwc
         *   感谢脱壳者 https://decrypt.day/
-    *   *方式 B*：直接从 Mac App Store 下载官方 iPad 版本（如适用）。
+    *   *方式 B*：直接从 Mac App Store 下载官方 iPad 版本。
 2.  **初始化**：首次运行本工具前，请务必**至少打开过一次 Phocus Mobile 2 App**，以确保系统已生成沙盒容器和数据库文件。
 
 ### 1. 批量导入（推荐）
@@ -137,7 +136,7 @@ xattr -cr /path/to/Phocus2Importer
 ```bash
 sudo spctl --master-disable
 ```
-然后前往 系统设置 → 隐私与安全性，在“允许从以下位置下载的 App”选择 任何来源。
+然后前往 系统设置 → 隐私与安全性，在“允许以下来源的应用程序”选择 任何来源。
 
 ### 兼容性
 *   **HNNR 支持**：目前针对 X1D 系列的标识位修改已验证有效。如果你持有 **H6D** 或其他机型并希望获得更好支持，欢迎提交 Issue 并提供样片。
