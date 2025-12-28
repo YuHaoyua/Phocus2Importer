@@ -81,7 +81,7 @@ Phocus2Importer --3fr /path/to/B0001118.3FR --exifbin /path/to/exif.json --ts 17
 
 ### 1. 获取源码
 ```bash
-git clone https://github.com/yuhaoyua/Phocus2Importer.git
+git clone https://github.com/YuHaoyua/Phocus2Importer.git
 cd Phocus2Importer
 ```
 
@@ -160,6 +160,11 @@ sudo spctl --master-disable
 
 ---
 
+MIT License
+>>>>>>> Stashed changes
 ## License
 
 MIT License
+=======
+MIT License
+>>>>>>> Stashed changes
